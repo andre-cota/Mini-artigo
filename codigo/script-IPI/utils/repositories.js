@@ -15,7 +15,7 @@ async function getFirstPage(number){
     try {
         let response = await axios.get(url, {
             headers: {
-                Authorization: 'token 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'
+                Authorization: 'token ' //colocar token github
               }
         });
 
@@ -42,7 +42,7 @@ async function getRepositories(max, numberPage) {
     try {
         let response = await axios.get(url, {
             headers: {
-                Authorization: 'token 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'
+                Authorization: 'token ' //colocar token github
               }
         });
         response.data.items.forEach(element => {

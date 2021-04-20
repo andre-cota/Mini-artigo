@@ -50,7 +50,7 @@ async function evaluateRepo(repo){
     try {
         let response = await axios.get(url, {
             headers: {
-                Authorization: 'token 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' 
+                Authorization: 'token ' //colocar token github
             }
         });
         if(response == null) return false;
