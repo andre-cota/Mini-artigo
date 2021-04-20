@@ -1,5 +1,5 @@
 # Mini-artigo
-Mini artigo sobre linter em pyton
+Mini artigo sobre linter em Phyton
 
 # Código
 Para rodar o código basta começar pelo comando:
