@@ -1,0 +1,20 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repositories": "node ./utils/repositories.js",
+    "organized": "node ./utils/organized.js",
+    "updateHasLint": "node ./utils/updateHasLint.js",
+    "group": "node ./utils/group.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.28.0"
+  }
+}
